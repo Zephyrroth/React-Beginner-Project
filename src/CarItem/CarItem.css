@@ -1,0 +1,57 @@
+.CarItem {
+    background-color:rgb(100, 100, 100);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    border-top-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 5px 50px rgb(46, 46, 46);
+  }
+  
+  .CarItem-p {
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .CarItem-p--complete {
+    text-decoration: line-through;
+  }
+  
+  .Icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    /* background-color: #CCC; */
+  }
+  
+  .Icon-check {
+    position: absolute;
+    left: 12px;
+  }
+  .Icon-check--active {
+    color: rgb(28, 190, 6);
+  }
+
+  .Icon-check:hover {
+    color: rgb(0, 112, 0);
+  }
+  
+  .Icon-delete {
+    position: absolute;
+    top: -24px;
+    right: 0;
+    color: black;
+
+  }
+  .Icon-delete:hover {
+    color: red;
+  }
